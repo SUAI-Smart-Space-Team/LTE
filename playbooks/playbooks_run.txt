@@ -1,0 +1,25 @@
+Playbooks Run
+ 
+Name: ping_show_iptables.yml
+Run: ansible-playbook -i hosts ping_show_iptables.yml
+
+Name: add_rule.yml
+Input data: ip_in, ip_out
+Run: ansible-playbook -i hosts add_rule.yml --extra-vars "ip_in=1.1.1.1 ip_out=2.2.2.2"
+
+Name: delete_rule.yml
+Input data: ip_in, ip_out
+Run: ansible-playbook -i hosts delete_rule.yml --extra-vars "ip_in=1.1.1.1 ip_out=2.2.2.2"
+
+Name: modify_rule.yml
+Input data: ip_in_old, ip_out_old, ip_in_new, ip_out_new
+Run: ansible-playbook -i hosts modify_rule.yml--extra-vars "ip_in_old=1.1.1.0 ip_out_old =2.2.2.2 ip_in_new=3.3.3.3 ip_out_new=4.4.4.4"
+Note: if ip is 1.1.1.1 then ip_in_old will be 1.1.1.0
+
+Name: delete_all_rule.yml
+Run: ansible-playbook -i hosts delete_all_rule.yml
+
+Name: get_ip.yml
+Input data: ip_in
+Run: ansible-playbook -i hosts get_ip.yml --extra-vars "ip_in=1.1.1.0"
+Note: if ip is 1.1.1.1 then ip_in will be 1.1.1.0
