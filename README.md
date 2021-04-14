@@ -22,3 +22,5 @@ ____
   - npm -y --force-yes install dgram
 - You need to set up an ssh connection with the masquerade server and configure hosts file that is located in the folder playbooks. This is described in detail in this video https://www.youtube.com/watch?v=SpmcZkAutjg&t=612s.
 - Launch server using the command "node server [arg1] [arg2]"
+  - arg1 - port on which the server listening
+  - arg2 - full path to the directory /playbook   
