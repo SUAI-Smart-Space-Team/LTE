@@ -12,7 +12,9 @@ This project is designed for user communication using various interfaces: LTE, W
 
 ## Deploying the project 
 
-#### Start the server with ansible and masquerade
+Clone a repository using the command
+
+#### Deployment server with ansible and masquerade
 ____
 - You need to run the following sequence of commands to install all the necessary programs and libraries:
   - apt-get update && apt -y --force-yes install git python3-pip 
@@ -25,8 +27,11 @@ ____
   - arg1 - port on which the server listening
   - arg2 - full path to the directory /playbooks
 
-#### Launching a user device
+#### Deployment user device
 ____
 - On Linux, the application can be run using the scrpits. To do this, first write sh /in the project directory in the terminal. compile.sh , then sh /.start.sh 
 - On Windows, you can also run the application through a script. To do this, you need to register compile in the console.bat, then start. bat. 
 - __On Windows, problems may occur if the JAVA_HOME variable is not registered in the system. In this case, it is necessary in the compile file.bat specify the path to javac.(bold)__
+
+#### Deployment FrontBack
+____
