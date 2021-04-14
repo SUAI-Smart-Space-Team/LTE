@@ -20,7 +20,13 @@ ____
   - apt -y --force-yes install nodejs npm
   - npm -y --force-yes install node-ansible
   - npm -y --force-yes install dgram
-- You need to set up an ssh connection with the masquerade server and configure hosts file that is located in the folder playbooks. This is described in detail in this video https://www.youtube.com/watch?v=SpmcZkAutjg&t=612s.
+- You need to set up an ssh connection with the masquerade server and configure hosts file that is located in the directory /playbooks. This is described in detail in this video https://www.youtube.com/watch?v=SpmcZkAutjg&t=612s.
 - Launch server using the command "node server [arg1] [arg2]"
   - arg1 - port on which the server listening
-  - arg2 - full path to the directory /playbook   
+  - arg2 - full path to the directory /playbooks
+
+#### Launching a user device
+____
+- On Linux, the application can be run using the scrpits. To do this, first write sh /in the project directory in the terminal. compile.sh , then sh /.start.sh 
+- On Windows, you can also run the application through a script. To do this, you need to register compile in the console.bat, then start. bat. 
+- On Windows, problems may occur if the JAVA_HOME variable is not registered in the system. In this case, it is necessary in the compile file.bat specify the path to javac.(bold)
