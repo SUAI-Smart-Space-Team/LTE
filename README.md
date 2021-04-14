@@ -14,4 +14,9 @@ This project is designed for user communication using various interfaces: LTE, W
 
 #### Start the server with ansible and masquerade
 ____
-sdhgeigia
+- Need to run the following sequence of commands:
+  - apt-get update && apt -y --force-yes install git python3-pip 
+  - pip install ansible
+  - apt -y --force-yes install nodejs npm
+  - npm -y --force-yes install node-ansible
+  - npm -y --force-yes install dgram
