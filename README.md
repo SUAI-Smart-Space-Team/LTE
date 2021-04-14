@@ -14,9 +14,10 @@ This project is designed for user communication using various interfaces: LTE, W
 
 #### Start the server with ansible and masquerade
 ____
-- Need to run the following sequence of commands:
+- You need to run the following sequence of commands to install all the necessary programs and libraries:
   - apt-get update && apt -y --force-yes install git python3-pip 
   - pip install ansible
   - apt -y --force-yes install nodejs npm
   - npm -y --force-yes install node-ansible
   - npm -y --force-yes install dgram
+- You need to set up an ssh connection with the masquerade server. This is described in detail in this video https://www.youtube.com/watch?v=SpmcZkAutjg&t=612s.
