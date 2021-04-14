@@ -12,7 +12,7 @@ This project is designed for user communication using various interfaces: LTE, W
 
 ## Deploying the project 
 
-Clone a repository using the command
+Clone a repository using the command: git clone https://github.com/SUAI-Smart-Space-Team/LTE.git
 
 #### Deployment server with ansible and masquerade
 ____
@@ -35,3 +35,14 @@ ____
 
 #### Deployment FrontBack
 ____
+- In the command line, write the commands to install node js and npm:
+  - apt-get update
+  - apt install nodejs
+  - apt install npm
+- Next, you need to create the package files.json and package-lock.json, and initialize the project. To do this, run the following command:
+npm install
+-
+- When all the dependencies and databases are installed, you can run the project using the command: "node server.js [arg1] [agr2] [agr3]"
+  - arg1 is the Ip address of the machine with ansible;
+  - agr2 is the machine port with ansible;
+  - agr3 is the terminal device machine port.
