@@ -20,4 +20,5 @@ ____
   - apt -y --force-yes install nodejs npm
   - npm -y --force-yes install node-ansible
   - npm -y --force-yes install dgram
-- You need to set up an ssh connection with the masquerade server. This is described in detail in this video https://www.youtube.com/watch?v=SpmcZkAutjg&t=612s.
+- You need to set up an ssh connection with the masquerade server and configure hosts file that is located in the folder playbooks. This is described in detail in this video https://www.youtube.com/watch?v=SpmcZkAutjg&t=612s.
+- Launch server using the command "node server [arg1] [arg2]"
