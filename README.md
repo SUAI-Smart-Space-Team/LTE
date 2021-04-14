@@ -9,3 +9,7 @@ Research on working with LTE and masquerade. Writing an API with a device databa
 ## Description of the project 
 
 This project is designed for user communication using various interfaces: LTE, Wi-Fi, LoRa. At this stage of the project, only data transmission via Wi-Fi and interaction with masquerade are implemented.
+
+## Deploying the project 
+
+### Start the server with ansible and masquerade
