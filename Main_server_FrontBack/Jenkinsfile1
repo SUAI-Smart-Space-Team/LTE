@@ -1,0 +1,18 @@
+pipeline {
+    agent {
+       label "deploy"
+    }
+    stages {
+          stage("connect") {
+             steps {
+               script {
+                   sh '''
+                   make image VERSION=LTE_front-back BRANCH=null FILE=./Dockerfile  
+                   chmod +x ./cve.sh
+                   sudo docker run -i --rm -v $(pwd)/cve.sh:/cve.sh --entrypoint="/cve.sh" smartspace/storage:LTE_front-back
+                   ''' 
+               }
+             }
+          }
+        }
+}
