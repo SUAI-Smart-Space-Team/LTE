@@ -43,6 +43,6 @@ ____
 npm install
 -
 - When all the dependencies and databases are installed, you can run the project using the command: "node server.js [arg1] [agr2] [agr3]"
-  - arg1 is the Ip address of the machine with ansible;
-  - agr2 is the machine port with ansible;
-  - agr3 is the terminal device machine port.
+  - arg1 - the Ip address of the machine with ansible;
+  - agr2 - the machine port with ansible;
+  - agr3 - the terminal device machine port.
