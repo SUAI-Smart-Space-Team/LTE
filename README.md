@@ -12,6 +12,11 @@ This project is designed for users communication using various interfaces: LTE, 
 
 ![Minimal System](https://user-images.githubusercontent.com/57037988/114868388-85625480-9dfe-11eb-87dc-4d1321422058.png)
 
+- The user sends a message that specifies the Device ID, data and through which interface to transmit it;
+- The API checks the id data in the database, the interfaces available to it, and takes its ip;
+- API if all the data is correct, the message is sent via the selected interface;
+- The user receives the message.
+
 ## Deploying the project 
 
 Clone a repository using the command: git clone https://github.com/SUAI-Smart-Space-Team/LTE.git
