@@ -1,3 +1,4 @@
+
 # Data transfer over a wireless network
 
 You will be welcomed by the SUAI-Smart-Space-Team/Wireless Team. 
@@ -55,3 +56,4 @@ ____
   - arg1 - the Ip address of the machine with ansible;
   - arg2 - the machine port with ansible;
   - arg3 - the terminal device machine port.
+
