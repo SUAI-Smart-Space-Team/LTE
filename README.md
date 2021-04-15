@@ -10,6 +10,8 @@ Research on working with LTE and masquerade. Writing an API with a device databa
 
 This project is designed for users communication using various interfaces: LTE, Wi-Fi, LoRa. At this stage of the project, only data transmission via Wi-Fi and interaction with masquerade are implemented.
 
+![Minimal System](https://user-images.githubusercontent.com/57037988/114868388-85625480-9dfe-11eb-87dc-4d1321422058.png)
+
 ## Deploying the project 
 
 Clone a repository using the command: git clone https://github.com/SUAI-Smart-Space-Team/LTE.git
