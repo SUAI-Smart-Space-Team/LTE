@@ -20,13 +20,13 @@ This project is designed for users communication using various interfaces: LTE, 
 
 ## Deploying the project 
 
-#### Deployment user device
-____
+### Deployment user device
 
 Link to the repository with instructions: https://github.com/SUAI-Smart-Space-Team/WHN-UserDevice
 
-#### Deployment FrontBack
 ____
+
+### Deployment FrontBack
 
 Link to the repository with instructions: https://github.com/SUAI-Smart-Space-Team/WHN-Front-Back
 
